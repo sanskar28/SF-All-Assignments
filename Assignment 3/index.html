@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>LUDO</title>
+       
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        
+        
+        
+    </head>
+    
+    
+    
+
+    <body>
+      
+        <div class="ludoback"></div>
+        
+        <div class="ludobutton">
+          <canvas id="ludo" height=600 width=600 ></canvas>s
+          <div id="top">It's Blue's turn</div>
+          <button id="roll" onclick="randomcall(0)">Roll !!</button>
+          
+          <div class="cheat">
+            <button id="num1" onclick="rollDice(1)">1</button>
+            <button id="num2" onclick="rollDice(2)">2</button>
+            <button id="num3" onclick="rollDice(3)">3</button>
+            <button id="num4" onclick="rollDice(4)">4</button>
+            <button id="num5" onclick="rollDice(5)">5</button>
+            <button id="num6" onclick="rollDice(6)">6</button>
+          </div>
+          
+          
+
+          <div class="dice" >
+              <ol class="die-list even-roll" data-roll="1" id="die-1">
+                <li class="die-item" data-side="1">
+                  <span class="dot"></span>
+                </li>
+                <li class="die-item" data-side="2">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </li>
+                <li class="die-item" data-side="3">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </li>
+                <li class="die-item" data-side="4">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </li>
+                <li class="die-item" data-side="5">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </li>
+                <li class="die-item" data-side="6">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </li>
+              </ol>
+          </div>
+        </div>
+        <script src="ludo.js" ></script>
+        
+        
+              
+    </body>
+   
+
+    
+    
+</html>
